@@ -3,9 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Objekta_Projekta", "Objekta_Projekta", "{9788E4AC-9FE0-4A2F-B1D6-FBD7F5DEB1CB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Detrakt", "Objekta_Projekta\Detrakt\Detrakt.vcxproj", "{72FD1A6F-5418-4501-B69F-AC03F1A72995}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Debug|x64.ActiveCfg = Debug|x64
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Debug|x64.Build.0 = Debug|x64
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Debug|x86.ActiveCfg = Debug|Win32
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Debug|x86.Build.0 = Debug|Win32
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Release|x64.ActiveCfg = Release|x64
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Release|x64.Build.0 = Release|x64
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Release|x86.ActiveCfg = Release|Win32
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{72FD1A6F-5418-4501-B69F-AC03F1A72995} = {9788E4AC-9FE0-4A2F-B1D6-FBD7F5DEB1CB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {87DEBC25-58F1-4B9F-9404-C8AAA66DD760}
